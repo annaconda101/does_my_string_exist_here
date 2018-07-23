@@ -1,0 +1,15 @@
+Does my string exist here?
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit">
+
+    <hr>
+
+    {% if result %}
+        RESULTS:<br />
+        <i>{{ previous_subtext }}</i> appeared in <i>{{ previous_text_to_search }}</i><br />
+        {{ result }}
+    {% endif %}
+</form>
