@@ -8,7 +8,7 @@ A coding exercise that finds all the occurrences of a particular set of characte
 
 # Usage
 1. `python manage.py runserver`
-2. `navigate to `http://127.0.0.1:8000/`
+2. navigate to `http://127.0.0.1:8000/`
 
 # Testing
 1. `python manage.py test`
